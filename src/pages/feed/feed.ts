@@ -14,6 +14,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'feed.html',
 })
 export class FeedPage {
+  public objeto_feed = {
+    name: "Guilherme Mariano JSON",
+    date: "October 08, 2018",
+    description: "Testando uma descrição com JSON",
+    qtde_likes: 13,
+    qtde_comments: 5,
+    time_comment: "12h ago"
+
+  }
+
+
   public nome_usuario:string = "Guilherme Mariano dos Santos";
   // ou
   //public nome_usuario:any = "Guilherme Mariano dos Santos";
